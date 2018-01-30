@@ -1,0 +1,78 @@
+body {
+  background-color: rgba(198, 238, 252, 0.53); }
+body #content {
+  background: #3B3B3B;
+  border: 2px solid #000000;
+  margin: 0 auto;
+  padding: 20px;
+  width: 960px; }
+body #content .brief {
+  background-color: #FFF178;
+  float: left;
+  padding: 10px 25px;
+  margin: 0px 30px 35px 0;
+  width: 95%; }
+body #content h1 {
+  color: #FCCD10;
+  text-align: center; }
+body #content h2 {
+  color: #FCCD10; }
+body #content p {
+  color: #FFFFFF; }
+body #content .img-left {
+  border: 2px solid #FCCD10;
+  float: left;
+  margin-right: 20px;
+  padding: 2px; }
+body #content .img-right {
+  border: 2px solid #FCCD10;
+  float: right;
+  margin: 0 0 5px 20px;
+  padding: 2px; }
+body #content caption {
+  text-align: right;
+  color: #000000; }
+body #content a {
+  color: #FCCD10; }
+body #content table {
+  border-collapse: collapse;
+  width: 95%; }
+body #content table tr:first-child {
+  background: #94A34E;
+  border-collapse: separate;
+  color: #000000; }
+body #content table th {
+  border-right: 1px solid #FFFFFF; }
+body #content table tr {
+  height: 40px;
+  background: #677D01;
+  color: #FFFFFF; }
+  body #content table tr td {
+    border-bottom: 1px solid #94A34E;
+    padding: 5px; }
+body #content .name {
+  width: 40%;
+  color: #F5C70F;
+  margin-right: 43%; }
+body #content .rat_resp, body #content .mail {
+  width: 100%;
+  color: #F5C70F;
+  margin-bottom: 2px; }
+body #content #name {
+  width: 49%;
+  margin-right: 7px; }
+body #content input[type=text] {
+  box-sizing: border-box;
+  border: 1px solid #94A34E;
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 100%; }
+body #content #response {
+  padding: 0 0 150px 10px;
+  margin-top: 10px; }
+body #content input[type=submit] {
+  background-color: #3B3B3B;
+  border: 1px solid #FCCD10;
+  color: #FCCD10;
+  padding: 15px 50px;
+  margin: 2px; }

@@ -1,0 +1,130 @@
+@mixin briefBox($background, $float, $padding, $margin, $width ) {
+    background-color: $background;
+    float: $float;
+    padding: $padding;
+    margin: $margin;
+    width: $width;
+}
+
+body {
+    & {
+        background-color: $bodyBackground;
+    }
+    
+    #content {
+        &{
+            background: $contentBackground;
+            border: $border;
+            margin: 0 auto;
+            padding: 20px;
+            width: 960px;
+            
+        }
+        
+        .brief {
+            @include briefBox($backgroundBrief, left, $paddingBrief, $marginBrief, $widthBrief)
+}
+    
+            h1 {
+                color: $titleFontColor;
+                text-align: center;
+            }
+
+            h2 {
+                color: $titleFontColor;    
+            }
+
+            p {
+                color: $fontColor;    
+            }
+
+            .img-left {
+                border: 2px solid $titleFontColor;
+                float: left;
+                margin-right: 20px;
+                padding: 2px;
+            }
+
+            .img-right {
+                border: 2px solid $titleFontColor;
+                float: right;
+                margin: 0 0 5px 20px;
+                padding: 2px;
+            }
+            
+        caption {
+            text-align: right;
+            color: #000000;
+        }
+        
+        a {
+            color: $linkColor;
+        }
+        
+        table {
+            &{
+                border-collapse: collapse;
+                width: 95%;
+            } 
+            
+            tr:first-child {
+                background: $trColor;
+                border-collapse: separate;
+                color: #000000;
+            }
+            
+            th {
+                border-right: 1px solid #FFFFFF;
+            }
+            
+            tr {
+                height: 40px;
+                background: $allTrColor;
+                color: $fontColor;
+                
+                td {
+                    border-bottom: 1px solid $trColor;
+                    padding: 5px;
+                }
+            }
+        }
+
+        .name {
+            width: 40%;
+            color: $fontFormColor;
+            margin-right: 43%;
+        }
+
+        .rat_resp, .mail {
+            width: 100%;
+            color: $fontFormColor;
+            margin-bottom: 2px;
+        }
+
+        #name {
+            width: 49%;
+            margin-right: 7px;
+        }
+        
+        input[type=text] {
+            box-sizing: border-box;
+            border: 1px solid $trColor;
+            margin: 10px 0;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        #response {
+            padding: 0 0 150px 10px;
+            margin-top: 10px;
+        }
+
+        input[type=submit] {
+            background-color: $contentBackground;
+            border: 1px solid $submitTxtColot;
+            color: $submitTxtColot;
+            padding: 15px 50px;
+            margin: 2px;
+        }        
+    }
+}
