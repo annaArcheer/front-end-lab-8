@@ -23,7 +23,7 @@ body {
         
         .brief {
             @include briefBox($backgroundBrief, left, $paddingBrief, $marginBrief, $widthBrief)
-}
+        }
     
             h1 {
                 color: $titleFontColor;
