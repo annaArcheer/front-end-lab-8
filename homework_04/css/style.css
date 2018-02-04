@@ -143,9 +143,8 @@ article .article {
 
 .photos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+/*     grid-template-columns: 1fr 1fr; */
     grid-gap: 1em;
-/*    grid-auto-rows: minmax(300px, auto);*/
 }
 
 .sample {
