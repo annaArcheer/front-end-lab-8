@@ -45,6 +45,10 @@ li a:hover {
     border-bottom: 1px solid #FFF;
 }
 
+h3 {
+     font-size: 3em;
+}
+
 .logo {
     padding-top: 20%;
     padding-left: 40%;
