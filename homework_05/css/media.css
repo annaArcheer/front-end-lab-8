@@ -1,0 +1,195 @@
+/*    Screen = to 575px     */
+    
+@media screen and (max-width: 575px) { 
+
+    .menu li {
+        background: #EEEEEE;
+        border: 1px solid #CDCDCD;
+    }
+
+    
+    content p {
+        font-size: 35px;
+        background-color: #39C2D7;
+        width: 75%;
+        margin: auto;
+        margin-top: 180px;
+        padding: 15px;
+    }
+
+    .first {
+        margin-top: 55px;
+    }
+
+    .img--block {
+        width: 90%;
+        margin: 100px auto;
+        padding: 10px;
+    }
+
+    .img--block img {
+        width: 70%;
+    }
+
+    .img--block p {
+        width: 75%;
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+
+    footer ul {
+        padding: 30px;
+    }
+}
+
+/*   Screen = from 576px to 899px   */
+
+@media screen and (min-width: 576px) and (max-width: 899px)  {
+
+    .menu ul {
+        padding-bottom: 60px;
+        padding-left: 20%;
+    }
+    
+    
+    content p {
+        font-size: 25px;
+        width: 50%;
+        margin: auto;
+        margin-top: 5px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    article {
+        margin-top: 240px;
+    }
+
+    .img--block {
+        background-color: #CCCCCC;
+        width: 45%;
+        margin: 14px;
+        padding: 10px;
+        overflow: auto;
+        float: left;
+    }
+
+    .img--block img {
+        width: 70%;
+    }
+
+    .img--block p {
+        width: 75%;
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    footer {
+        margin-top: 1410px;
+    }
+
+    footer ul {
+        padding: 30px;
+        padding-left: 35%;
+    }
+
+    li {
+        float: left;
+    }
+
+    footer li {
+        padding-right: 30px;
+    }
+
+    footer p {
+        text-align: center;
+    }     
+}
+
+/*    Screen = from 900px    */
+
+@media screen and (min-width: 900px) {
+    header{
+        padding-bottom: 22px;  
+        padding-left: 10%;
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    .menu {
+        padding-top: 15px;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    .menu ul {
+        padding-bottom: 60px;
+        padding-left: 20%;
+    }
+    
+       article {
+        margin-top: 20%;
+    }
+    
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+
+    content p {
+        font-size: 30px;
+        width: 30%;
+        margin: 70px;
+        margin-top: 30px;
+        padding: 15px;
+        text-align: left;
+    }
+    
+     .img--block {
+         width: 25%;
+         height: 240px;
+         margin: 14px;
+         padding: 10px;
+         overflow: auto;
+         float: left;
+     }
+    
+    .img--block img {
+         width: 95%;
+     }
+    
+    .img--block p {
+        font-size: 16px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    footer {
+        margin-top: 80%;
+    }
+    
+    footer ul {
+        padding: 15px 0 0 100px;
+    }
+    
+    footer li {
+        padding-right: 30px;
+    }
+}
