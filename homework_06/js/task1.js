@@ -5,7 +5,8 @@ var c = parseInt(prompt("Please enter third side of triangle",1));
 var p = (a + b + c)/2;
 var square = Math.sqrt(p* (p-a) * (p-b) * (p-c));
 
-if (isNaN(a) || isNaN(b) || isNaN(c) || (a<=0) || (b<=0) || (c<=0)) {
+if (isNaN(a) || isNaN(b) || isNaN(c) || (a<=0) || (b<=0) || (c<=0) || 
+(a + b) < c || (b + c) < a || (c + a) < b)) {
     console.log ("Incorrect data");
 } else if ((a==b) && (b==c) && (a==c)){
     console.log ("Type of trianle is equilateral and square is " + parseFloat(square.toFixed(2)) );
