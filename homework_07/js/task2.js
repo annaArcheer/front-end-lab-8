@@ -33,7 +33,7 @@ while(playAgain){
                 for (j=0; j < prizes.length; j++){
                     prizes[j] *= 3;
                     if (number == random){
-                    totalPrize =+ prizes[i]; 
+                    totalPrize =+ prizes[j]; 
                     }   
                 }  
             }
