@@ -36,7 +36,6 @@ while(playAgain){
                     totalPrize =+ prizes[i]; 
                     }   
                 }  
-                console.log(prizes[j]);
             }
         }
     
