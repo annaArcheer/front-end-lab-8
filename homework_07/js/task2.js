@@ -18,26 +18,23 @@ while(playAgain){
                                  prizes[i] + "$", 0));
 
                 if (number == random){
-                    totalPrize =+ prizes[i]; 
+                    totalPrize =+ prizes[i];
+                    var continueGame = confirm("Do you want to continue the game?");
+                        if (continueGame){
+                            max = max + max;
+                            console.log(max);
+                            for (j=0; j < prizes.length; j++){
+                                prizes[j] *= 3;
+                                if (number == random){
+                                totalPrize =+ prizes[j]; 
+                                }   
+                            }  
+                        }
                 }     
             allTotalPrize += totalPrize;
             console.log("Thank you for a game. Your prize is: "+totalPrize+" $");
-        }      
+        }  
     }
-    
-    if (number == random){
-            var continueGame = confirm("Do you want to continue the game?");
-            if (continueGame){
-                max = max + max;
-                console.log(max);
-                for (j=0; j < prizes.length; j++){
-                    prizes[j] *= 3;
-                    if (number == random){
-                    totalPrize =+ prizes[j]; 
-                    }   
-                }  
-            }
-        }
     
     console.log("Thank you for a game. Your prize is: "+allTotalPrize+" $");
     
