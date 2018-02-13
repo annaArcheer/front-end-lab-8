@@ -21,7 +21,7 @@ while(playAgain){
                     totalPrize =+ prizes[i]; 
                 }     
             allTotalPrize += totalPrize;
-            console.log("Thank you for a game. Your prize is: "+allTotalPrize+" $");
+            console.log("Thank you for a game. Your prize is: "+totalPrize+" $");
         }      
     }
     
