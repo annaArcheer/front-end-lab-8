@@ -68,7 +68,11 @@ function fighter(objFighter){
     }
 
     
-    return countResult, getName,  getStats, getCombatHistory, fight;
+    return  countResult, 
+            getName,  
+            getStats, 
+            getCombatHistory, 
+            fight;
 }
 
 
