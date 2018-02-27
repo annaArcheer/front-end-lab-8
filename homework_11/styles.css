@@ -1,2 +1,5 @@
 /* Your styles goes here */
 
+* {
+    list-style-type: none;
+}
